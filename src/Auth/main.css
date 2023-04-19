@@ -1,0 +1,64 @@
+.btn-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.img {
+  border-radius: 20px;
+  width: 90%;
+  height: 300px;
+  margin: 20px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  /* background-image: url("https://th.bing.com/th/id/OIP.c8b46OARsSRc49u3l_TZ0gHaE-?pid=ImgDet&rs=1"); */
+  /* background-image: url("https://img.favpng.com/16/11/0/portable-network-graphics-deadpool-image-cartoon-computer-icons-png-favpng-zKnbgLmptTP73XWsdyXJ5HDT5.jpg"); */
+}
+.img img {
+  width: 350px;
+  height: 250px;
+  border-radius: 20px;
+}
+.btn1 {
+  width: 500px;
+  height: 600px;
+  /* margin: 70px auto; */
+  background-color: aliceblue;
+  border-radius: 20px;
+}
+
+.button {
+  width: 100%;
+  height: 300px;
+  /* background-color: pink; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.button .btn {
+  width: 200px;
+  height: 50px;
+  margin: 10px auto;
+  background-color: skyblue;
+  color: black;
+}
+
+.button .btn > a {
+  font-size: 17px;
+  color: black;
+  font-weight: 700;
+  text-decoration: none;
+  transition: 0.3s linear;
+}
+.button .btn > a:hover {
+  color: white;
+}
+
+.button .btn:hover {
+  background: rgb(61, 140, 171);
+}
