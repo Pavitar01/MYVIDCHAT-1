@@ -5,13 +5,13 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDEix3_nbsqKL1ChEtvzX6DXeIPQqRlMQE",
-  authDomain: "vidchat-a0800.firebaseapp.com",
-  projectId: "vidchat-a0800",
-  storageBucket: "vidchat-a0800.appspot.com",
-  messagingSenderId: "488248524951",
-  appId: "1:488248524951:web:cd1535e3ed5985714ba9d2",
-  measurementId: "G-N9T9TBHM3D",
+  apiKey: "AIzaSyAovgYgntjUz7KVbkXztowpR5rrCWdYOZM",
+  authDomain: "vidchat-78734.firebaseapp.com",
+  projectId: "vidchat-78734",
+  storageBucket: "vidchat-78734.appspot.com",
+  messagingSenderId: "544934406478",
+  appId: "1:544934406478:web:897d395593e5a921e6961f",
+  measurementId: "G-TQXYH5JMXS"
 };
 
 const app = initializeApp(firebaseConfig);

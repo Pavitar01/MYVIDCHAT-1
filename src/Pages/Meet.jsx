@@ -5,8 +5,8 @@ import "./main1.css";
 const Meet = () => {
   const { roomId } = useParams();
   const myMeet = async (ele) => {
-    const appId = 1637928923;
-    const ServerSecret = "a5f22a5eb3358362219323fd00dd044e";
+    const appId = 1431856458;
+    const ServerSecret = "cdbe5f8509049872ac9ecc486c73a829";
     const kitToken = ZegoUIKitPrebuilt.generateKitTokenForTest(
       appId,
       ServerSecret,
